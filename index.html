@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment7.2</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="assign">
+
+    <!--heading-->
+
+    <h3>Helper Note by creating a form</h3>
+
+    <form class="form">
+
+        <!--helper note tag-->
+
+        <h4 id="helper">Helper Note:</h4>
+
+        <!--form input group-->
+
+        <div class="group">
+            <p><label for="name">Name:</label></p>
+            <input type="text" class="name" id="name" name="name" onclick="helperNote(this.id);">
+        </div>
+        <div class="group">
+            <p><label for="age">Age:</label></p>
+            <input type="text" class="age" id="age" name="age" onclick="helperNote(this.id);">
+        </div>
+        <div class="group">
+            <p><label for="city">City:</label></p>
+            <input type="text" class="city" id="city" name="city" onclick="helperNote(this.id);">
+        </div>
+
+        <div class="clear"></div>
+
+    </form>
+
+</div>
+<script src="javascript/customjs.js" type="text/javascript"></script>
+</body>
+</html>

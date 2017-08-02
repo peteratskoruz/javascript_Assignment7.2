@@ -1,0 +1,18 @@
+
+.form{width: 320px;
+margin: 0 auto;
+border: 1px solid #b1b1b1;
+padding: 15px;
+background: #e6e6e6;}
+
+.form .group{margin-bottom: 10px;float: left;}
+
+.form .group p{float: left;margin: 0;width: 55px;}
+
+.form .group input{float: left;}
+
+.clear{clear:both;}
+
+.assign h3{ text-align: center;}
+
+.form h4{margin-bottom: 10px;text-align: center;margin-top: 0;}
